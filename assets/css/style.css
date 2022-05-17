@@ -1,0 +1,111 @@
+body {
+	background-image: url("../img/1.jpg");
+    background-color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #fff;
+  	background-size: cover; /* Resize the background image to cover the entire container */
+	background-repeat: no-repeat; /* Do not repeat the image */
+	background-position: center; /* Center the image */
+	height: 100vh; /* You must set a specified height */
+    /* text-align: center; */
+}
+
+strong {font-weight: normal;}
+
+a, a:hover, a:focus {
+	color: #F59034;
+	text-decoration: none;
+	-o-transition: all .3s;
+	-moz-transition: all .3s;
+	-webkit-transition: all .3s;
+	-ms-transition: all .3s;
+	transition: all .3s;
+}
+
+h2 {
+	margin-top: 67px;
+	font-size: 42px;
+	font-weight: 100;
+	line-height: 54px;
+}
+
+img { max-width: 100%; }
+
+::-moz-selection { background: #42bfc2; color: #fff; text-shadow: none; }
+::selection { background: #42bfc2; color: #fff; text-shadow: none; }
+
+
+/***** Coming Soon *****/
+
+.inner-bg {
+    padding: 75px 30px 40px 30px;
+}
+.inner-bg  .container{
+    padding-bottom: 30px;
+    width: 94%;
+}
+
+.coming-soon .logo a {
+	display: inline-block;
+	width: 294px;
+	height: 150px;
+	background: url(../img/logo294X119.png) left center no-repeat;
+	text-indent: -99999px;
+	
+	
+}
+ 
+.coming-soon p {
+	margin: 40px 0 10px 0;
+	padding: 0;
+	font-size: 17px;
+	line-height: 36px;
+}
+
+.coming-soon p strong{
+	font-size: 22px;
+  	font-weight: normal;
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+	.coming-soon p { padding: 0; }
+
+}
+
+@media (max-width: 767px) {
+	
+	.coming-soon p { padding: 0; }
+
+}
+
+@media (max-width: 550px) {
+
+	.inner-bg {
+    padding: 30px;
+	}
+
+
+	body {text-align: center; }
+
+}
+
+@media (max-width: 400px) {
+	
+	h1, h2 { font-size: 32px; }
+	body {text-align: center; }
+}
+
+@media (max-width: 280px) {
+	body {text-align: center; }
+	.inner-bg { padding: 0px; }
+	.coming-soon .logo a {
+		background: url(../img/logo220X89.png) left center no-repeat;
+	}
+}
+
